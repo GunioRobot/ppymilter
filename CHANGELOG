@@ -7,8 +7,8 @@
   to store up and send at the proper phase in the milter protocol.  Instead
   clients must store this state themselves, register an OnEndBody() function
   and then "return self.ReturnOnEndBodyActions(modification_list)" to
-  send all modifications to a message.  See the the ppymilter wiki or the 
-  docstring for ppymilterbase.PpyMilter.ReturnOnEndBodyActions() for more 
+  send all modifications to a message.  See the the ppymilter wiki or the
+  docstring for ppymilterbase.PpyMilter.ReturnOnEndBodyActions() for more
   info and an example.
 
 
